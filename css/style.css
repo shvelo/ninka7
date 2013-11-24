@@ -97,4 +97,12 @@ article h2 {
 	text-align: center;
 }
 
-.galleria{ height: 500px; background: #000 }
+.galleria {
+	height: 500px;
+	background: #2d2d2d;
+	background: rgba(0,0,0,.88)
+}
+
+.galleria-container {
+	background: transparent;
+}
