@@ -89,9 +89,12 @@ header h1 a, header h1 a:hover {
 
 article {
 	margin-top: .5em;
+	padding-bottom: 1em;
 }
 
 article h2 {
 	font-size: 2em;
 	text-align: center;
 }
+
+.galleria{ height: 500px; background: #000 }
