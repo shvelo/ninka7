@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps);
+
+html, body {
+	font-family: sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	color: #223344;
+	background: url(../img/ricepaper.png);
+}
+
+body {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 .5em;
+}
+
+a, a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	color: #344558;
+	transition-duration: .5s;
+}
+
+a:hover {
+	color: #257de0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: "Bilbo Swash Caps", cursive;
+}
+
+.contact h2 {
+	font-family: inherit;
+	font-size: 1.7em;
+	margin-bottom: .2em;
+}
+
+.contact h2 a {
+	color: #0f3157;
+}
+
+.contact h2 a:hover {
+	color: #277bd9;
+}
+
+dl {
+	margin: 0;
+	padding: 0;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 0;
+	margin-bottom: .5em;
+	line-height: 1.2;
+}
+
+nav {
+	text-align: center;
+}
+
+nav a {
+	font-family: "Bilbo Swash Caps", cursive;
+	font-size: 2em;
+	margin: 0 .4em 0 .4em;
+}
+
+header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+header h1 {
+	color: #213245;
+	text-align: center;
+	margin: 0;
+	font-size: 5em;
+	font-family: "Bilbo Swash Caps", cursive;
+}
+
+header h1 a, header h1 a:hover {
+	color: #213245;
+}
+
+article {
+	margin-top: .5em;
+}
+
+article h2 {
+	font-size: 2em;
+	text-align: center;
+}
