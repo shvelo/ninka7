@@ -1,8 +1,14 @@
 #!/usr/bin/env ruby
 
+files = []
+
 data = "var data = \["
 
 Dir.glob "img/gallery/*" do |file|
+	files << file
+end
+
+files.sort.each do |file|
 	data += "{ image : '" + file + "'},"
 end
 
