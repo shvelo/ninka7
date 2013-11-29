@@ -2,17 +2,15 @@
 
 files = []
 
-data = "var data = \["
+data = "var data = \[\n"
 
 Dir.glob "img/gallery/*" do |file|
 	files << file
 end
 
 files.sort.each do |file|
-	data += "{ image : '" + file + "'},"
+	data += "\t{ image : '" + file + "' },\n"
 end
-
-data[-1] = "" if data[-1] == ","
 
 data += "\];"
 
