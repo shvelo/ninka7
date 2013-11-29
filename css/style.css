@@ -15,6 +15,11 @@ body {
 	padding: 0 .5em;
 }
 
+.clearfix {
+	clear: both;
+	float: none;
+}
+
 a, a:visited {
 	text-decoration: none;
 	font-weight: bold;
@@ -97,8 +102,19 @@ article h2 {
 	text-align: center;
 }
 
+.home .content {
+	float: left;
+	width: 60%;
+}
+
+.picture {
+	float: left;
+	width: 35%;
+	margin: 1em;
+}
+
 .galleria {
-	height: 500px;
+	height: 750px;
 	background: #2d2d2d;
 	background: rgba(0,0,0,.88)
 }
