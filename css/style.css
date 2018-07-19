@@ -10,16 +10,19 @@ html, body {
 }
 
 body {
-	max-width: 900px;
-	margin: 0 auto;
 	padding: 0 .5em;
+}
+
+.clearfix {
+	clear: both;
+	float: none;
 }
 
 a, a:visited {
 	text-decoration: none;
 	font-weight: bold;
 	color: #344558;
-	transition-duration: .5s;
+	transition: color .5s;
 }
 
 a:hover {
@@ -29,20 +32,6 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	font-family: "Bilbo Swash Caps", cursive;
-}
-
-.contact h2 {
-	font-family: inherit;
-	font-size: 1.7em;
-	margin-bottom: .2em;
-}
-
-.contact h2 a {
-	color: #0f3157;
-}
-
-.contact h2 a:hover {
-	color: #277bd9;
 }
 
 dl {
@@ -97,8 +86,27 @@ article h2 {
 	text-align: center;
 }
 
+.home .content {
+	float: left;
+	width: 70%;
+}
+
+.picture {
+	float: left;
+	width: 25%;
+	margin: 1em;
+}
+
+.picture img {
+	width: 100%;
+}
+
+.contact {
+	text-align: center;
+}
+
 .galleria {
-	height: 500px;
+	height: 750px;
 	background: #2d2d2d;
 	background: rgba(0,0,0,.88)
 }

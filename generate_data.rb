@@ -1,12 +1,16 @@
 #!/usr/bin/env ruby
 
-data = "var data = \["
+files = []
+
+data = "var data = \[\n"
 
 Dir.glob "img/gallery/*" do |file|
-	data += "{ image : '" + file + "'},"
+	files << file
 end
 
-data[-1] = "" if data[-1] == ","
+files.sort.each do |file|
+	data += "\t{ image : '" + file + "' },\n"
+end
 
 data += "\];"
 
